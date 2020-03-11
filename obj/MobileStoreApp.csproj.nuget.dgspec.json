@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj": {}
+    "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj": {
+    "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj",
         "projectName": "MobileStoreApp",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\obj\\",
+        "projectPath": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj",
+        "packagesPath": "C:\\Users\\nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
