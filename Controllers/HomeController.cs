@@ -17,12 +17,15 @@ namespace MobileStoreApp.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult Register()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
         }
-
+      
         public IActionResult Privacy()
         {
             return View();

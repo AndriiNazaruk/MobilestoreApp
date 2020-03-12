@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj": {}
+    "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj": {
+    "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj",
         "projectName": "MobileStoreApp",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\MobileStoreApp.csproj",
+        "projectPath": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\MobileStoreApp\\obj\\",
+        "outputPath": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
