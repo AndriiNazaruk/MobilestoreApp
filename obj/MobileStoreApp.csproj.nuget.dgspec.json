@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj": {}
+    "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj": {
+    "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj",
         "projectName": "MobileStoreApp",
-        "projectPath": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\MobileStoreApp.csproj",
-        "packagesPath": "C:\\Users\\nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nazar\\Desktop\\MobileStoreApp\\MobilestoreApp\\obj\\",
+        "projectPath": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\MobileStoreApp.csproj",
+        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Андрей\\Desktop\\MobileStore\\MobilestoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
@@ -65,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
